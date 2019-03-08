@@ -1,0 +1,20 @@
+{
+  "name" : "lineToArrow",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0.0"
+  },
+  "description" : "This plugin allow you generate allow from line. It's useful when you make documentations, like customer journey map etc...",
+  "id" : "00c40c4c",
+  "icons" : [ {
+    "path" : "images/icon.png",
+    "width" : 96,
+    "height" : 96
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Line to Arrow",
+    "type" : "menu",
+    "commandId" : "myPluginCommand"
+  } ],
+  "version" : "1.0.0"
+}
