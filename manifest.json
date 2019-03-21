@@ -14,7 +14,11 @@
   "uiEntryPoints" : [ {
     "label" : "Line to Arrow",
     "type" : "menu",
-    "commandId" : "myPluginCommand"
+    "commandId" : "myPluginCommand",
+    "shortcut": {
+      "mac": "Cmd+Option+a",
+      "win": "Ctrl+Alt+a"
+    }
   } ],
   "version" : "1.0.0"
 }
